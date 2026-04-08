@@ -33,8 +33,8 @@ class datatransformation:
 
 
         try:
-            numerical_features = ["writing_score","reading_score"]
-            categorical_featres = [
+            numerical_columns = ["writing_score","reading_score"]
+            categorical_columns = [
                 "gender",
                 "race_ethnicity",
                 "parental_level_of_education",
@@ -56,14 +56,14 @@ class datatransformation:
                     ("scaler",StandardScaler(with_mean=False)) 
                 ]
             )
-            logging.info(f"numerical columns:{numerical_features}")
-            logging.info(f"categorical columns:{categorical_featres}")
+            logging.info(f"numerical columns:{numerical_columns}")
+            logging.info(f"categorical columns:{categorical_columns}")
 
 
             preprocessor = ColumnTransformer(
                 [
-                ("num_pipeline",num_pipeline,numerical_features),
-                ("cat_pipline",cat_pipeline,categorical_featres)
+                ("num_pipeline",num_pipeline,numerical_columns),
+                ("cat_pipline",cat_pipeline,categorical_columns)
                 ]
             )
 
