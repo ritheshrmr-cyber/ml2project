@@ -215,3 +215,14 @@ __pycache__/
 *.pyc
 .DS_Store
 catboost_info/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+catboost_info/
+__pycache__/
+*.pyc
+artifacts/
+catboost_info/
+.env
+.DS_Store
