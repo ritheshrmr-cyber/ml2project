@@ -1,20 +1,24 @@
-# 🎓 Student Exam Performance Predictor
+# Student Exam Performance Predictor
 
 An end-to-end Machine Learning project that predicts a student's math score based on demographic and academic factors. This project includes the complete ML pipeline along with a web application and live deployment.
+### Home page
+![Home Page](images/home.png)
+### prediction output
+![Home Page](images/prediction.png)
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 🔗 https://ml-project-vdsy.onrender.com
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 The goal of this project is to predict student performance in mathematics based on features such as gender, parental education, lunch type, and test preparation course.
 
 ---
 
-## 🧠 Features
+## Features
 - End-to-end ML pipeline (data ingestion → transformation → training → prediction)
 - Multiple machine learning models trained and evaluated
 - Best model selected based on performance
@@ -64,7 +68,7 @@ The goal of this project is to predict student performance in mathematics based 
 ## 🖥️ How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ritheshrmr-cyber/ml2project.git
+cd ml2project
 pip install -r requirements.txt
 python app.py
