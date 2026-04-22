@@ -210,3 +210,8 @@ __pycache__/
 *.pyc
 .DS_Store
 catboost_info/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+catboost_info/
